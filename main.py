@@ -2,6 +2,7 @@ import json
 from datetime import datetime
 import calc
 import converter
+import spellcheck
 
 
 class User:
@@ -28,7 +29,7 @@ class Menu:
     def gird(self):
         Log_writer.write(self, "open main menu")
         print("Menu\n Chose Tool for start the work\n1. Calculator\n2. Converter\n3. Spell Checker ")
-        chose = input("Enter number of Tool  ")
+        chose = input("Enter number of Tool |> ")
         if chose == "1":
             Log_writer.write(self, "choose Calculator")
             calc.calcstarter(self)
@@ -37,6 +38,7 @@ class Menu:
             converter.ConvMenu(self)
         if chose == "3":
             Log_writer.write(self, "choose Spell Checker")
+            spellcheck.menu(self)
 
 
 class Log_writer:

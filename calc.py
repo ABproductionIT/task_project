@@ -5,25 +5,25 @@ def calculate(self, a, b, c):
     if c == "+":
         main.Log_writer.write(self, (str(a)+str(c)+str(b)))
         a = a + b
-        print(a)
+        print("=", a)
         main.Log_writer.write(self, ("="+str(a)))
         e = input("Choose method + - * /")
     if c == "-":
         main.Log_writer.write(self, (str(a)+str(c)+str(b)))
         a = a - b
-        print(a)
+        print("=", a)
         main.Log_writer.write(self, ("="+str(a)))
         e = input("Choose method + - * /")
     if c == "*":
         main.Log_writer.write(self, (str(a)+str(c)+str(b)))
         a = a * b
-        print(a)
+        print("=", a)
         main.Log_writer.write(self, ("="+str(a)))
         e = input("Choose method + - * /")
     if c == "/":
         main.Log_writer.write(self, (str(a)+str(c)+str(b)))
         a = a / b
-        print(a)
+        print("=", a)
         main.Log_writer.write(self, ("="+str(a)))
         e = input("Choose method + - * /")
     if e == "+" or "-" or "*" or "/":
