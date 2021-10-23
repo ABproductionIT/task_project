@@ -1,7 +1,4 @@
 import main
-from spellchecker import SpellChecker
-
-spell = SpellChecker()
 
 
 def menu():
