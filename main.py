@@ -27,14 +27,16 @@ class User:
 class Menu:
     def gird(self):
         Log_writer.write(self, "open main menu")
-        print("Menu\n Chose Tool for start the work\n1. Calculator\n2. Converter")
+        print("Menu\n Chose Tool for start the work\n1. Calculator\n2. Converter\n3. Spell Checker ")
         chose = input("Enter number of Tool  ")
         if chose == "1":
-            Log_writer.write(self, "choose calculator")
+            Log_writer.write(self, "choose Calculator")
             calc.calcstarter(self)
         if chose == "2":
-            Log_writer.write(self, "choose converter")
+            Log_writer.write(self, "choose Converter")
             converter.ConvMenu(self)
+        if chose == "3":
+            Log_writer.write(self, "choose Spell Checker")
 
 
 class Log_writer:
