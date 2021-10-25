@@ -46,8 +46,8 @@ class Log_writer:
         with open('user_data.json', 'r') as f:
             text = json.load(f)
             with open("user.log", "a") as logfile:
-                 line = str(datetime.now())+" "+text['username']+" "+log
-                 logfile.write(line + '\n')
+                line = str(datetime.now())+" "+text['username']+" "+log
+                logfile.write(line + '\n')
 
 
 if __name__ == '__main__':

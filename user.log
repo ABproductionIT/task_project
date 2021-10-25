@@ -123,3 +123,37 @@
 2021-10-24 02:07:43.921681 dfdf choose Open text file
 2021-10-24 02:07:49.482196 dfdf enter url |> text.txt
 2021-10-24 02:07:49.482196 dfdf open file
+2021-10-26 02:28:24.407343 Albert open main menu
+2021-10-26 02:28:31.540741 Albert choose Calculator
+2021-10-26 02:28:37.840747 Albert 5+3.0
+2021-10-26 02:28:37.840747 Albert =8.0
+2021-10-26 02:32:16.799030 Albert 8.0+5.0
+2021-10-26 02:32:16.799030 Albert =13.0
+2021-10-26 02:43:04.483490 ab open main menu
+2021-10-26 02:43:11.623383 ab choose Converter
+2021-10-26 02:43:11.623383 ab open converter menu
+2021-10-26 03:08:44.356715 ddsd open main menu
+2021-10-26 03:08:49.983492 ddsd choose Converter
+2021-10-26 03:08:49.983492 ddsd open converter menu
+2021-10-26 03:09:03.601977 ddsd open  Body Mass Index converter
+2021-10-26 03:26:48.943380 gggg open main menu
+2021-10-26 03:26:52.721584 gggg choose Converter
+2021-10-26 03:26:52.721584 gggg open converter menu
+2021-10-26 03:27:01.527960 gggg open  Body Mass Index converter
+2021-10-26 03:28:23.100675 j open main menu
+2021-10-26 03:28:26.693981 j choose Converter
+2021-10-26 03:28:26.693981 j open converter menu
+2021-10-26 03:28:29.701358 j open  Body Mass Index converter
+2021-10-26 03:29:02.299801 s open main menu
+2021-10-26 03:29:10.636122 s open main menu
+2021-10-26 03:29:13.781533 s choose Converter
+2021-10-26 03:29:13.781533 s open converter menu
+2021-10-26 03:29:17.575524 s open  Body Mass Index converter
+2021-10-26 03:30:16.176129 k open main menu
+2021-10-26 03:30:18.914166 k choose Converter
+2021-10-26 03:30:18.914166 k open converter menu
+2021-10-26 03:30:24.011081 k open  Body Mass Index converter
+2021-10-26 03:33:56.764981 5 open main menu
+2021-10-26 03:33:58.791667 5 choose Converter
+2021-10-26 03:33:58.791667 5 open converter menu
+2021-10-26 03:34:01.803506 5 open  Body Mass Index converter
