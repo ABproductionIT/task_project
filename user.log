@@ -157,3 +157,24 @@
 2021-10-26 03:33:58.791667 5 choose Converter
 2021-10-26 03:33:58.791667 5 open converter menu
 2021-10-26 03:34:01.803506 5 open  Body Mass Index converter
+2021-10-27 02:07:08.892556 ab open main menu
+2021-10-27 02:07:12.044462 ab choose Converter
+2021-10-27 02:07:12.044462 ab open converter menu
+2021-10-27 02:07:20.243447 ab open data converter
+2021-10-27 02:07:50.048525 ab wont convert 1.0MB to KB`s
+2021-10-27 02:07:50.048525 ab convert result = 1024.0
+2021-10-27 02:07:50.048525 ab open converter menu
+2021-10-27 02:10:30.853388 ab open main menu
+2021-10-27 02:10:33.658631 ab choose Converter
+2021-10-27 02:10:33.658631 ab open converter menu
+2021-10-27 02:10:36.040993 ab open data converter
+2021-10-27 02:10:52.123049 ab wont convert 1.0GB to MB`s
+2021-10-27 02:10:52.123049 ab convert result = 1024.0
+2021-10-27 02:10:52.123049 ab open converter menu
+2021-10-27 02:12:42.712737 ghsg open main menu
+2021-10-27 02:12:47.958768 ghsg choose Converter
+2021-10-27 02:12:47.958768 ghsg open converter menu
+2021-10-27 02:12:49.160740 ghsg open data converter
+2021-10-27 02:13:03.983903 ghsg wont convert 44.0B to KB`s
+2021-10-27 02:13:03.983903 ghsg convert result = 0.04296875
+2021-10-27 02:14:03.242175 ghsg open converter menu
