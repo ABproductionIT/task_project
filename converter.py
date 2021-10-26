@@ -132,7 +132,7 @@ class wdconv:
         'centimeter': ('distance', 0.01),
         'millimeter':('distance', 0.001),
         'mile': ('distance', 1609.35),
-        'feet': ('distance', 0.3048),  # irregular plural - must be explicitly specified!
+        'feet': ('distance', 0.3048),
         'inch': ('distance', 0.0254)
     }
 
