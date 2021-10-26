@@ -178,3 +178,42 @@
 2021-10-27 02:13:03.983903 ghsg wont convert 44.0B to KB`s
 2021-10-27 02:13:03.983903 ghsg convert result = 0.04296875
 2021-10-27 02:14:03.242175 ghsg open converter menu
+2021-10-27 02:59:07.685502 ddfd open main menu
+2021-10-27 02:59:10.644856 ddfd choose Converter
+2021-10-27 02:59:10.644856 ddfd open converter menu
+2021-10-27 02:59:15.146020 ddfd open data converter
+2021-10-27 02:59:28.953105 ddfd wont convert 1.0MB to GB`s
+2021-10-27 03:02:31.080279 ab open main menu
+2021-10-27 03:02:34.059483 ab choose Converter
+2021-10-27 03:02:34.059483 ab open converter menu
+2021-10-27 03:02:38.764236 ab open data converter
+2021-10-27 03:02:55.163433 ab wont convert 1.0Kb to MB`s
+2021-10-27 03:03:08.803671 as open main menu
+2021-10-27 03:03:10.976302 as choose Converter
+2021-10-27 03:03:10.991927 as open converter menu
+2021-10-27 03:03:12.040548 as open data converter
+2021-10-27 03:03:22.381454 as wont convert 1.0MB to B`s
+2021-10-27 03:03:56.280124 add open main menu
+2021-10-27 03:04:00.483537 add choose Converter
+2021-10-27 03:04:00.483537 add open converter menu
+2021-10-27 03:04:04.597354 add open data converter
+2021-10-27 03:04:15.679428 add wont convert 1.0MB to B`s
+2021-10-27 03:04:15.680428 add convert 1.0MB ( to B
+2021-10-27 03:04:15.680428 add convert 1.0MB ( to B
+2021-10-27 03:04:15.680428 add convert result = 1048576.0
+2021-10-27 03:04:38.829655 add open converter menu
+2021-10-27 03:12:10.564709 addd open main menu
+2021-10-27 03:12:13.453545 addd choose Converter
+2021-10-27 03:12:13.453545 addd open converter menu
+2021-10-27 03:12:16.521242 addd open data converter
+2021-10-27 03:12:36.558553 addd wont convert 1.0KB to B`s
+2021-10-27 03:12:36.558553 addd convert 1.0KB data to B
+2021-10-27 03:12:36.558553 addd convert 1.0KB data to B
+2021-10-27 03:12:36.558553 addd convert result = 1024.0
+2021-10-27 03:26:23.852052 ss open main menu
+2021-10-27 03:27:17.028497 ss choose Converter
+2021-10-27 03:27:17.028497 ss open converter menu
+2021-10-27 03:27:19.333181 ss open data converter
+2021-10-27 03:27:33.077275 ss wont convert 1.0MB to B`s
+2021-10-27 03:27:33.077275 ss convert 1.0MB data to B
+2021-10-27 03:27:33.077275 ss convert result = 1048576.0

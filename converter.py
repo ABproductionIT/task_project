@@ -21,8 +21,11 @@ class wdconv:
 
     }
 
-    def convert(param, in_param, out_param):
+    def convert(self, param, in_param, out_param):
+        main.Log_writer.write(self, ("convert "+str(param)+str(in_param)+" "+str((wdconv.units[in_param])[0])+" to "+str(out_param)))
+        # ex` user convert 1.0KB data to B
         return (param*(wdconv.units[in_param])[1])/(wdconv.units[out_param][1])
+
 
 
 def ConvMenu(self):
@@ -44,22 +47,11 @@ def Dataconv(self):
     print("Choose type of output valve")
     outdatatype = input("(Enter B,KB,MB,GB,TB or PB)")
     main.Log_writer.write(self, ("wont convert "+str(valve)+str(indatatype)+" to "+str(outdatatype)+"`s"))
-    print(valve, indatatype, " = ", wdconv.convert(valve, indatatype, outdatatype), outdatatype)
-    main.Log_writer.write(self, ("convert result = "+str(wdconv.convert(valve, indatatype, outdatatype))))
+    result = wdconv.convert(self, valve, indatatype, outdatatype)
+    print(valve, indatatype, " = ", result, outdatatype)
+    main.Log_writer.write(self, ("convert result = "+str(result)))
     back = input("enter for go to converter menu")
     ConvMenu(self)
-
-
-
-def convertFloatToDecimal(f=0.0, precision=2):
-    '''
-    Convert a float to string of decimal.
-    precision: by default 2.
-    If no arg provided, return "0.00".
-    '''
-    return ("%." + str(precision) + "f") % f
-
-
 
 
 def bmi(self):
