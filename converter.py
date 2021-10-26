@@ -125,29 +125,18 @@ def bmi(self):
 
 class wdconv:
     units = {
-        'kg': ('weight', 1.),
-        'kilo': ('weight', 1.),
         'kilogram': ('weight', 1.),
-        'lb': ('weight', 2.204),
-        'pound': ('weight', 2.204),
-        'tonne': ('weight', 0.001),
-        'carat': ('weight', 5000.),
-        'gram': ('weight', 1000.),
-        'dram': ('weight', 564.4),
-        'ounce': ('weight', 35.27),
-        'grain': ('weight', 15430.),
-        'm': ('distance', 1.),
+        'pound': ('weight', 0.453592),
         'meter': ('distance', 1.),
-        'kilometer': ('distance', 0.001),
-        'km': ('distance', 0.001),
-        'centimeter': ('distance', 100.),
-        'cm': ('distance', 100.),
-        'meter': ('distance', 1.),
-        'mile': ('distance', 0.0006214),
-        'chain': ('distance', 0.04971),
-        'furlong': ('distance', 0.004971),
-        'league': ('distance', 0.0002071),
-        'foot': ('distance', 3.281),
-        'feet': ('distance', 3.281),  # irregular plural - must be explicitly specified!
-        'inch': ('distance', 39.37)
+        'kilometer': ('distance', 1000.),
+        'centimeter': ('distance', 0.01),
+        'millimeter':('distance', 0.001),
+        'mile': ('distance', 1609.35),
+        'feet': ('distance', 0.3048),  # irregular plural - must be explicitly specified!
+        'inch': ('distance', 0.0254)
     }
+
+    def convert(param, in_param, out_param):
+        return (param*(wdconv.units[in_param])[1])/(wdconv.units[out_param][1])
+
+print(wdconv.convert(5, 'feet', 'mile'))
