@@ -62,7 +62,18 @@ def bmi(self):
     m = input()
     # menu
     if m == "1":
-        amt = 1
-        wdconv.convert(amt, 'kg', 'pound')
+        main.Log_writer.write(self, "open weight converter")
+        print("weight converter is started!")
+        valve = float(input("enter input valve"))
+        print("Choose type of input valve \n 'kilogram' or 'pound'")
+        indatatype = input("(Enter - | ")
+        if indatatype == "pound":
+            outdatatype = "kilogram"
+        if indatatype == "kilogram":
+            outdatatype = "pound"
+        print("converting ", valve, indatatype, " to ", outdatatype)
+        result = wdconv.convert(self, valve, indatatype, outdatatype)
+        print(valve, indatatype, " = ", result, outdatatype)
+        ConvMenu(self)
     if m == "2":
         pass
