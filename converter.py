@@ -23,9 +23,8 @@ class wdconv:
 
     def convert(self, param, in_param, out_param):
         main.Log_writer.write(self, ("convert "+str(param)+str(in_param)+" "+str((wdconv.units[in_param])[0])+" to "+str(out_param)))
-        # ex` user convert 1.0KB data to B
+        # write log example` user convert 1.0KB data to B
         return (param*(wdconv.units[in_param])[1])/(wdconv.units[out_param][1])
-
 
 
 def ConvMenu(self):
@@ -36,6 +35,8 @@ def ConvMenu(self):
         Dataconv(self)
     if m == "b":
         bmi(self)
+    else:
+        main.Menu.other_input(self, m, "converter.ConvMenu(self)")
 
 
 def Dataconv(self):

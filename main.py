@@ -40,6 +40,14 @@ class Menu:
             Log_writer.write(self, "choose Spell Checker")
             spellcheck.menu(self)
 
+    def other_input(self, inp, callfunc):
+        if inp == "quit":
+            quit()
+        if inp == "help":
+            print("_____help_____\nfor quit programm enter 'quit'")
+            return eval(callfunc)
+
+
 
 class Log_writer:
     def write(self, log):
