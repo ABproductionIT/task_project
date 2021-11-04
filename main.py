@@ -7,18 +7,17 @@ import spellcheck
 
 class User:
     def user(self):
-        if self is True:
-            name = input("enter user name=")
-            surname = input("enter user surname=")
-            age = input("age=")
-            gender = input("gender =")
-            user_data_dict = {
-              "login_date": str(datetime.now()),
-              "username": name,
-              "surname": surname,
-              "age": age,
-              "gender": gender}
-            return User.user_data(user_data_dict), Menu.gird(self)
+        name = input("enter user name=")
+        surname = input("enter user surname=")
+        age = input("age=")
+        gender = input("gender =")
+        user_data_dict = {
+            "login_date": str(datetime.now()),
+            "username": name,
+            "surname": surname,
+            "age": age,
+            "gender": gender}
+        return User.user_data(user_data_dict), Menu.gird(self)
 
     def user_data(data):
         with open("user_data.json", "w") as outfile:
@@ -59,4 +58,5 @@ class Log_writer:
 
 
 if __name__ == '__main__':
-    app = User.user(self=True)
+    app = User()
+    app.user()
